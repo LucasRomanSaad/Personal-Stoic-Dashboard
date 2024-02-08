@@ -1,21 +1,7 @@
-# cod7f49658930f2fd93453e86
+# Stoic Dashboard chrome extension 
 
-Quick start:
+The stoic dashboard app serves as a personalized chrome extension dashboard built with HTML, CSS & async JavaScript.
 
-```
-$ npm install
-$ npm start
-````
+The dashboard dynamically updates various elements: firstly, it fetches a random landscape-oriented nature photo from Unsplash API and sets it as the background image,providing a visually appealing backdrop. Secondly, it utilizes the Geolocation API to obtain the user's current position and fetches weather data from OpenWeatherMap API, converting the temperature to Celsius and displaying the weather icon, temperature, and city name & it displays the current time. Finally, it fetches a random Stoic quote from the Stoic Quotes API and exhibits it alongside the author, offering inspirational content. 
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+Altogether, the app combines real-time updates on time and weather with aesthetically pleasing visuals and philosophical insights, creating a comprehensive and engaging personal dashboard experience.
